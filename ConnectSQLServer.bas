@@ -16,7 +16,7 @@ Sub ConnectSQLServer()
     cn.Open
     
     If cn.State = 1 Then
-        Debug.Print "Connected!"
+        Debug.Print "Connected."
     End If
     
     cn.Close
